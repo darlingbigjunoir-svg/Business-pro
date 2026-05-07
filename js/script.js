@@ -1,14 +1,9 @@
-/* =============================================
-   TALENTO – main.js
-   Full interactive JavaScript
-   ============================================= */
+
 
 (function () {
   'use strict';
 
-  /* -----------------------------------------------
-     1. NAVBAR – Sticky scroll + background switch
-  ----------------------------------------------- */
+
   const navbar = document.querySelector('.navbar');
 
   function handleNavbarScroll() {
@@ -23,14 +18,11 @@
   handleNavbarScroll(); // run on load
 
 
-  /* -----------------------------------------------
-     2. MOBILE HAMBURGER MENU
-  ----------------------------------------------- */
   const hamburger = document.querySelector('.hamburger');
   const navLinks  = document.querySelector('.nav-links');
   const navPhone  = document.querySelector('.nav-phone');
 
-  // Create mobile menu overlay
+
   const mobileMenu = document.createElement('div');
   mobileMenu.className = 'mobile-menu';
   mobileMenu.innerHTML = `
